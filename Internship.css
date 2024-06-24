@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "Playfair Display", serif;
+}
+html,body
+{
+    height:100%;
+    width: 100%;
+}
+div
+{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(Internship.webp);
+  background-size: cover;
+    height: 100%;
+  width: 100%;
+    color: aliceblue;
+}
+div .navi 
+{
+    
+    background-color: #676765;
+    border-style: inset;
+    display: flex;
+    flex-direction:row;
+}
+div .navi h2
+{
+    color: aliceblue;
+    font-size:40px;
+   padding-left:550px;
+}
+div .navi button
+{
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #a1aeb1;
+    border-radius: 5px;
+    border-color: #676765;
+}
+.main
+{
+margin-left: 50px;
+display: flex;
+margin-top: 50px;
+margin-right: 50px;
+padding-top: 10px;
+margin-bottom: 50px;
+}
+.main #part1
+{
+    height: 70%;
+    width: 33%;
+    border-radius: 10px;
+}
+.main #part1 h1
+{
+    text-align: center;
+}
+.main #part1 p
+{
+    text-align: center;
+    font-size: 20px;
+}
+.main #part1 h3
+{
+ text-align: left;
+ text-decoration: underline;
+ padding-left: 10px;
+ padding-top: 30px;
+}
+.main #part2 
+{
+    margin-left: 10px;
+    height: 70%;
+    width: 33%;
+    border-radius: 10px;
+}
+.main #part2 h1
+{
+    text-align: center;
+}
+.main #part2 p
+{
+    text-align: center;
+    
+    font-size: 20px;
+}
+.main #part2 h3
+{
+    text-align: left;
+ text-decoration: underline;
+ padding-left: 10px;
+ padding-top: 30px;
+}
+.main #part3
+{
+    height: 70%;
+    width: 33%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.main #part3 h1
+{
+    padding-left:60px;
+}
+.main #part3 p
+{
+    text-align: center;
+
+    font-size: 20px;
+}
+.main #part3 h3
+{
+text-align: left;
+ text-decoration: underline;
+ padding-left: 10px;
+ padding-top: 30px;
+}
+.main #part1 ul 
+{
+    padding-left: 40px;
+}
+.main #part1 ul li
+{
+   padding-bottom: 20px;
+    padding-top: 30px;
+}
+.main #part2 ul 
+{
+    padding-left: 40px;
+}
+.main #part2 ul li
+{
+   padding-bottom: 20px;
+    padding-top: 30px;
+}
+.main #part3 ul 
+{
+    padding-left: 40px;
+}
+.main #part3 ul li
+{
+   padding-bottom: 20px;
+    padding-top: 30px;
+}
+.main #part1 button
+{
+    padding-left: 20px;
+    margin-left: 150px;
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #a1aeb1;
+    cursor: pointer;
+    font-size: bold;
+}
+.main #part2 button
+{
+    padding-left: 20px;
+    margin-left: 150px;
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #a1aeb1;
+    cursor: pointer;
+    font-size: bold;
+}
+.main #part3 button
+{
+    padding-left: 20px;
+    margin-left: 150px;
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #a1aeb1;
+    cursor: pointer;
+    font-size: bold;
+}

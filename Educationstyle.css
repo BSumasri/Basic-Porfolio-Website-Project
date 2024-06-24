@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "Playfair Display", serif;
+}
+html,body
+{
+    height:100%;
+    width: 100%;
+}
+div
+{
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(Education.png) ;
+    background-size: cover;
+  height: 100%;
+  width: 100%;
+    color: aliceblue;
+}
+div .navi 
+{
+    
+    background-color: #676765;
+    border-style: inset;
+    display: flex;
+    flex-direction:row;
+}
+div .navi h2
+{
+    color: aliceblue;
+    font-size:40px;
+   padding-left:550px;
+}
+div .navi button
+{
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #a1aeb1;
+    border-radius: 5px;
+    border-color: #676765;
+}
+
+#education 
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 40px;
+margin-left: 20px;
+}
+#edu
+{
+margin-top: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+#edu #Hindi
+{
+    margin-left:30px ;
+}
+
+#edu #ssc
+{
+    margin-right: 70px;
+}
+ p
+{
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+border-style: double;
+width:200px;
+margin-left: 580px;
+text-transform: uppercase;
+}
+#language #lang
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-right: 40px;
+    display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+#language #prof
+{
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
